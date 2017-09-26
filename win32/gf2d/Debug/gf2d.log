@@ -1,2 +1,4 @@
-﻿  gf2d.vcxproj -> C:\AlgoWork\gameframework2d\win32\gf2d\..\..\gf2d.exe
+﻿  PrioQue.c
+c:\algowork\prioque\src\prioque.c(86): warning C4098: 'print_prio': 'void' function returning a value
+  gf2d.vcxproj -> C:\AlgoWork\PrioQue\win32\gf2d\..\..\gf2d.exe
   gf2d.vcxproj -> ..\..\gf2d.pdb (Partial PDB)
