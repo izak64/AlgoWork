@@ -1,4 +1,4 @@
-﻿  PrioQue.c
-c:\algowork\prioque\src\prioque.c(86): warning C4098: 'print_prio': 'void' function returning a value
+﻿  game.c
+c:\algowork\prioque\src\game.c(117): warning C4305: '+=': truncation from 'double' to 'float'
   gf2d.vcxproj -> C:\AlgoWork\PrioQue\win32\gf2d\..\..\gf2d.exe
   gf2d.vcxproj -> ..\..\gf2d.pdb (Partial PDB)

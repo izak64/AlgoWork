@@ -8119,3 +8119,84 @@ c:\algowork\prioque\src\gf2d_sprite.c:44: sprite system initialized
 c:\algowork\prioque\src\game.c:134: ---==== END ====---
 c:\algowork\prioque\src\gf2d_sprite.c:27: sprite system closed
 c:\algowork\prioque\src\gf2d_graphics.c:163: graphics closed
+c:\algowork\prioque\src\game.c:88: ---==== BEGIN ====---
+c:\algowork\prioque\src\gf2d_graphics.c:132: graphics initialized
+c:\algowork\prioque\src\gf2d_sprite.c:44: sprite system initialized
+c:\algowork\prioque\src\game.c:88: ---==== BEGIN ====---
+c:\algowork\prioque\src\gf2d_graphics.c:132: graphics initialized
+c:\algowork\prioque\src\gf2d_sprite.c:44: sprite system initialized
+c:\algowork\prioque\src\game.c:139: ---==== END ====---
+c:\algowork\prioque\src\gf2d_sprite.c:27: sprite system closed
+c:\algowork\prioque\src\gf2d_graphics.c:163: graphics closed
+c:\algowork\prioque\src\game.c:89: ---==== BEGIN ====---
+c:\algowork\prioque\src\gf2d_graphics.c:132: graphics initialized
+c:\algowork\prioque\src\gf2d_sprite.c:44: sprite system initialized
+c:\algowork\prioque\src\game.c:140: ---==== END ====---
+c:\algowork\prioque\src\gf2d_sprite.c:27: sprite system closed
+c:\algowork\prioque\src\gf2d_graphics.c:163: graphics closed
+c:\algowork\prioque\src\game.c:91: ---==== BEGIN ====---
+c:\algowork\prioque\src\gf2d_graphics.c:132: graphics initialized
+c:\algowork\prioque\src\gf2d_sprite.c:44: sprite system initialized
+c:\algowork\prioque\src\game.c:148: ---==== END ====---
+c:\algowork\prioque\src\gf2d_sprite.c:27: sprite system closed
+c:\algowork\prioque\src\gf2d_graphics.c:163: graphics closed
+c:\algowork\prioque\src\game.c:91: ---==== BEGIN ====---
+c:\algowork\prioque\src\gf2d_graphics.c:132: graphics initialized
+c:\algowork\prioque\src\gf2d_sprite.c:44: sprite system initialized
+c:\algowork\prioque\src\game.c:93: ---==== BEGIN ====---
+c:\algowork\prioque\src\gf2d_graphics.c:132: graphics initialized
+c:\algowork\prioque\src\gf2d_sprite.c:44: sprite system initialized
+c:\algowork\prioque\src\game.c:93: ---==== BEGIN ====---
+c:\algowork\prioque\src\gf2d_graphics.c:132: graphics initialized
+c:\algowork\prioque\src\gf2d_sprite.c:44: sprite system initialized
+c:\algowork\prioque\src\game.c:93: ---==== BEGIN ====---
+c:\algowork\prioque\src\gf2d_graphics.c:132: graphics initialized
+c:\algowork\prioque\src\gf2d_sprite.c:44: sprite system initialized
+c:\algowork\prioque\src\game.c:93: ---==== BEGIN ====---
+c:\algowork\prioque\src\gf2d_graphics.c:132: graphics initialized
+c:\algowork\prioque\src\gf2d_sprite.c:44: sprite system initialized
+c:\algowork\prioque\src\game.c:93: ---==== BEGIN ====---
+c:\algowork\prioque\src\gf2d_graphics.c:132: graphics initialized
+c:\algowork\prioque\src\gf2d_sprite.c:44: sprite system initialized
+c:\algowork\prioque\src\game.c:159: ---==== END ====---
+c:\algowork\prioque\src\gf2d_sprite.c:27: sprite system closed
+c:\algowork\prioque\src\gf2d_graphics.c:163: graphics closed
+c:\algowork\prioque\src\game.c:93: ---==== BEGIN ====---
+c:\algowork\prioque\src\gf2d_graphics.c:132: graphics initialized
+c:\algowork\prioque\src\gf2d_sprite.c:44: sprite system initialized
+c:\algowork\prioque\src\game.c:159: ---==== END ====---
+c:\algowork\prioque\src\gf2d_sprite.c:27: sprite system closed
+c:\algowork\prioque\src\gf2d_graphics.c:163: graphics closed
+c:\algowork\prioque\src\game.c:93: ---==== BEGIN ====---
+c:\algowork\prioque\src\gf2d_graphics.c:132: graphics initialized
+c:\algowork\prioque\src\gf2d_sprite.c:44: sprite system initialized
+c:\algowork\prioque\src\game.c:93: ---==== BEGIN ====---
+c:\algowork\prioque\src\gf2d_graphics.c:132: graphics initialized
+c:\algowork\prioque\src\gf2d_sprite.c:44: sprite system initialized
+c:\algowork\prioque\src\game.c:159: ---==== END ====---
+c:\algowork\prioque\src\gf2d_sprite.c:27: sprite system closed
+c:\algowork\prioque\src\gf2d_graphics.c:163: graphics closed
+c:\algowork\prioque\src\game.c:93: ---==== BEGIN ====---
+c:\algowork\prioque\src\gf2d_graphics.c:132: graphics initialized
+c:\algowork\prioque\src\gf2d_sprite.c:44: sprite system initialized
+c:\algowork\prioque\src\game.c:159: ---==== END ====---
+c:\algowork\prioque\src\gf2d_sprite.c:27: sprite system closed
+c:\algowork\prioque\src\gf2d_graphics.c:163: graphics closed
+c:\algowork\prioque\src\game.c:93: ---==== BEGIN ====---
+c:\algowork\prioque\src\gf2d_graphics.c:132: graphics initialized
+c:\algowork\prioque\src\gf2d_sprite.c:44: sprite system initialized
+c:\algowork\prioque\src\game.c:159: ---==== END ====---
+c:\algowork\prioque\src\gf2d_sprite.c:27: sprite system closed
+c:\algowork\prioque\src\gf2d_graphics.c:163: graphics closed
+c:\algowork\prioque\src\game.c:93: ---==== BEGIN ====---
+c:\algowork\prioque\src\gf2d_graphics.c:132: graphics initialized
+c:\algowork\prioque\src\gf2d_sprite.c:44: sprite system initialized
+c:\algowork\prioque\src\game.c:159: ---==== END ====---
+c:\algowork\prioque\src\gf2d_sprite.c:27: sprite system closed
+c:\algowork\prioque\src\gf2d_graphics.c:163: graphics closed
+c:\algowork\prioque\src\game.c:77: ---==== BEGIN ====---
+c:\algowork\prioque\src\gf2d_graphics.c:132: graphics initialized
+c:\algowork\prioque\src\gf2d_sprite.c:44: sprite system initialized
+c:\algowork\prioque\src\game.c:143: ---==== END ====---
+c:\algowork\prioque\src\gf2d_sprite.c:27: sprite system closed
+c:\algowork\prioque\src\gf2d_graphics.c:163: graphics closed

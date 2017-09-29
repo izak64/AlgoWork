@@ -31,6 +31,6 @@ Node * new_node(void * data, int priority);
 void enq(void * data, int priority, linklist * linked);
 
 /*dequeue_max*/
-void deq_max(linklist * linked);
+Node *deq_min(linklist * linked);
 
 #endif

@@ -35,15 +35,26 @@ void enq(void * data, int priority, linklist * linked)
 		return;
 	}
 
-	while (curr->priority > node->priority && curr->next != NULL)
+	while (curr->priority < node->priority && curr->next != NULL)
 	{
 		curr = curr->next;
 	}
 	if (curr->next == NULL)
 	{
-		curr->next = node;
-		node->prev = curr;
-		linked->TAIL = node;
+		if (curr->priority < node->priority)
+		{
+			curr->next = node;
+			node->prev = curr;
+			linked->TAIL = node;
+		}
+		else
+		{
+			node->prev = curr->prev;
+			if (curr->prev)
+				curr->prev->next = node;
+			curr->prev = node;
+			node->next = curr;
+		}
 	}
 	else if (curr == linked->HEAD)
 	{
@@ -60,23 +71,26 @@ void enq(void * data, int priority, linklist * linked)
 	}
 }
 
-void deq_max(linklist * linked)
+Node * deq_min(linklist * linked)
 {
 	Node * curr = linked->HEAD;
 
 	if (!linked->HEAD)
 	{
 		printf("no nodes present \n");
-		return;
+		return NULL;
 	}
 	else
 	{
 		linked->HEAD = curr->next;
-		linked->HEAD->prev = NULL;
-		linked->HEAD->next = curr->next->next;
+		if (linked->HEAD)
+		{
+			linked->HEAD->prev = NULL;
+			linked->HEAD->next = curr->next->next;
+		}
 		curr->prev = NULL;
 		curr->next = NULL;
-		free(curr);
+		return curr;
 	}
 }
 

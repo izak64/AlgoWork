@@ -43,8 +43,10 @@ void draw_stack(Sprite *brick, Vector2D start, Brick *bricklist, unsigned int co
 int main(int argc, char * argv[])
 {
 	/*variable declarations*/
-	linklist * linked = new_link(sizeof(int));
-	//////
+
+	linklist * linked = new_link(sizeof(Brick));
+	int i;
+	Node *max;
 	int done = 0;
 	const Uint8 * keys;
 	Sprite *sprite, *brick;
@@ -62,23 +64,15 @@ int main(int argc, char * argv[])
 		{ 22 }
 	};
 
+	static Brick sort_brick[10];
+
 	int mx, my;
 	float mf = 0;
 	Sprite *mouse;
 	Vector4D mouseColor = { 0,0,255,200 };
 
 	/*program initializtion*/
-	enq(25, 25, linked);
-	print_prio(linked);
-	enq(13, 13, linked);
-	print_prio(linked);
-	enq(7, 7, linked);
-	print_prio(linked);
-	enq(17, 17, linked);
-	print_prio(linked);
-	deq_max(linked);
-	print_prio(linked);
-	///////
+
 	init_logger("gf2d.log");
 	slog("---==== BEGIN ====---");
 	gf2d_graphics_initialize(
@@ -99,6 +93,21 @@ int main(int argc, char * argv[])
 	brick = gf2d_sprite_load_all("images/brick.png", 32, 32, 16);
 	mouse = gf2d_sprite_load_all("images/pointer.png", 32, 32, 16);
 	/*main game loop*/
+	
+	for (i=0; i < 10; i++)
+	{
+		enq(&bricklist[i], bricklist[i].width, linked);
+	}
+
+	for (i = 9; i >= 0; i--)
+	{
+		max = deq_min(linked);
+		if (max)
+		{
+			sort_brick[i] = *(Brick *)max->data;
+		}
+	}
+	
 	while (!done)
 	{
 		SDL_PumpEvents();   // update SDL's internal event structures
@@ -114,7 +123,7 @@ int main(int argc, char * argv[])
 									 //backgrounds drawn first
 		gf2d_sprite_draw_image(sprite, vector2d(0, 0));
 
-		draw_stack(brick, vector2d(600, 700), bricklist, 10);
+		draw_stack(brick, vector2d(600, 700), sort_brick, 10);
 
 		//UI elements last
 		gf2d_sprite_draw(
