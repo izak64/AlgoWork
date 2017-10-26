@@ -1,8 +1,10 @@
 #include <SDL.h>
+#include <stdio.h>
 #include "gf2d_graphics.h"
 #include "gf2d_sprite.h"
 #include "simple_logger.h"
 #include "tilemap.h"
+#include "breadth.h"
 
 int main(int argc, char * argv[])
 {
@@ -10,6 +12,10 @@ int main(int argc, char * argv[])
     int done = 0;
     const Uint8 * keys;
     Sprite *sprite;
+	/**/
+	Vector2D test;
+	int* result;
+	/**/
     
     int mx,my;
     float mf = 0;
@@ -41,6 +47,15 @@ int main(int argc, char * argv[])
     map = tilemap_load("levels/tilemap.map");
     vector2d_copy(path[0],map->start);
     vector2d_copy(path[1],map->end);
+	/**/
+	test.x = 23;
+	test.y = 11;
+	result = find_neighbors(map, test);
+	printf("%f, %f\n", convert(result[0], map).x, convert(result[0], map).y);
+	printf("%f, %f\n", convert(result[1], map).x, convert(result[1], map).y);
+	printf("%f, %f\n", convert(result[2], map).x, convert(result[2], map).y);
+	printf("%f, %f\n", convert(result[3], map).x, convert(result[3], map).y);
+	/**/
     /*main game loop*/
     while(!done)
     {
@@ -73,6 +88,7 @@ int main(int argc, char * argv[])
         if (keys[SDL_SCANCODE_ESCAPE])done = 1; // exit condition
    //     slog("Rendering at %f FPS",gf2d_graphics_get_frames_per_second());
     }
+	
     slog("---==== END ====---");
     return 0;
 }

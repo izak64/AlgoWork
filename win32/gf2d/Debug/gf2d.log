@@ -1,0 +1,3 @@
+﻿  breadth.c
+c:\algowork\gameframework2d\src\breadth.c(9): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  gf2d.vcxproj -> C:\AlgoWork\gameframework2d\win32\gf2d\..\..\gf2d.exe

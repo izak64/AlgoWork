@@ -1,6 +1,6 @@
 #include <string.h>
 #include <stdlib.h>
-#include "linklist.h"
+#include "linkedlist.h"
 #include "simple_logger.h"
 
 Node * linklist_new_node()
