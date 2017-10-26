@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 ﻿  breadth.c
 c:\algowork\gameframework2d\src\breadth.c(9): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
   gf2d.vcxproj -> C:\AlgoWork\gameframework2d\win32\gf2d\..\..\gf2d.exe
+=======
+﻿  gf2d.vcxproj -> C:\AlgoWork\gameframework2d\win32\gf2d\..\..\gf2d.exe
+  gf2d.vcxproj -> ..\..\gf2d.pdb (Partial PDB)
+>>>>>>> 4ff295b83d4fb0e933ed9994b1150c3d6f7128b4
